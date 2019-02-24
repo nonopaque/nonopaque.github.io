@@ -1,0 +1,176 @@
+@charset "utf-8";
+
+.header {
+	margin: 0;
+	padding: 10px;
+	width: 100%;
+	background: white;
+	color: #f2a0a1;
+	display: block;
+	text-align: center;
+}
+.header img{width: 220px}
+
+.header_image{
+	position: relative;
+}
+
+.header_image img{
+	display: block;
+	margin: 0 auto;
+	width: 80%;
+}
+.header_image p{
+	position: absolute;
+	bottom: -12%;
+	left: 8%;
+	text-decoration: underline;
+	font-size: 47px;
+	line-height: 73px;
+	color: #f2a0a1;
+	font-family: 'Cuprum', sans-serif;
+}
+
+.about{/*親div*/
+  position: relative;/*相対配置*/
+  }
+.about img{margin-top: 80px;}
+.about_text{
+	position: absolute;/*絶対配置*/
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	margin:0;
+    padding:0;
+	text-align: center;
+	width: 720px;
+	height: 460px;
+	background-color: rgba(255,255,255,0.8);
+	padding: 48px 15px 65px;
+}
+h1{
+	color: #f2a0a1;
+	font-size: 40px;
+	font-family: 'Cuprum', sans-serif;
+	letter-spacing: 0.2em;
+}
+h2{
+	font-size: 32px;
+	font-weight: normal;
+	font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic";
+}
+p{
+	font-size: 14px;
+	line-height: 28px;
+	font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic";
+}
+.arrows{
+	margin-top: 20px;
+	color: #ff9999;
+}
+
+.service{
+	width: 1000px;
+	height: 700px;
+	background: #F3F2F2;
+	margin: 60px auto;
+	text-align: center;
+	padding: 48px 15px 65px;
+	position: relative;
+}
+.img3{
+	position: absolute;
+	bottom: 15%;
+	left: -5%;
+}
+.img4{
+	position: absolute;
+	bottom: 8%;
+	left: 52%;	
+}
+
+.img5{float: left}
+.img67{float: left}
+.img89{float: left}
+
+.img6, .img8{
+	padding-bottom: 6px;
+	padding-top: 6px;
+
+}
+.img5, .img67{
+	padding-right: 10px
+}
+
+.case_study h1{
+	text-align: center;
+	margin-top: 120px;
+	margin-bottom: 60px;
+	
+
+}
+
+.img56789{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 110px;
+}
+
+.clip_garden{/*親div*/
+  background: #F3F2F2;
+  padding: 120px 0px;
+  }
+.clip_garden2{/*親div*/
+  position: relative;/*相対配置*/
+  width: 1000px;
+  display: block;
+  margin: 0 auto;
+}
+.gardening_service{
+	width:460px;
+	padding: 20px 35px;
+	background-color:rgba(255, 255, 255, 0.95);
+	position: absolute;/*絶対配置*/
+	bottom: 50px;
+	right: 50px;
+}
+
+h3{
+	color: #f2a0a1;
+	font-size: 24px;
+	font-family: 'Cuprum', sans-serif;
+	letter-spacing: 0.2em;
+	
+}
+.img11{
+	position: absolute;
+	top:-60px;
+	left:-60px;
+	width:210px;
+}
+
+footer{
+	background: #f2a0a1;
+	text-align: center;
+	color: white;
+}
+.img12{
+	width: 210px;
+	padding-top: 40px;
+}
+footer p{
+	font-family: 'Cuprum', sans-serif;
+	letter-spacing: 0.2em;
+	font-weight: 400px;
+}
+footer .far{
+	font-size: 28px;
+}
+.fa-file-alt{margin-right: 20px}
+.COPYRIGHT{
+	font-size: 11px;
+    padding-bottom: 22px;
+    padding-top: 50px;}
+
+
