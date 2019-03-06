@@ -184,5 +184,8 @@ footer .far{
     padding-bottom: 22px;
     padding-top: 50px;
     margin: 0}
-
+footer a {
+text-decoration: none;
+color: #fff
+}
 
