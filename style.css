@@ -1,5 +1,13 @@
 @charset "utf-8";
 
+html {
+	overflow: auto;
+}
+body{
+	margin: 0;
+	overflow-x: hidden;
+}
+
 .header {
 	margin: 0;
 	padding: 10px;
@@ -33,13 +41,16 @@
 
 .about{/*親div*/
   position: relative;/*相対配置*/
-  }
-.about img{margin-top: 80px;}
+}
+
+.about img{
+	margin-top: 80px;
+}
 .about_text{
 	position: absolute;/*絶対配置*/
 	top: 50%;
 	left: 50%;
-	transform: translate(-50%,-50%);
+	transform: translate(-50%,-45%);
 	margin:0;
     padding:0;
 	text-align: center;
@@ -171,6 +182,7 @@ footer .far{
 .COPYRIGHT{
 	font-size: 11px;
     padding-bottom: 22px;
-    padding-top: 50px;}
+    padding-top: 50px;
+    margin: 0}
 
 
